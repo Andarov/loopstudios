@@ -152,23 +152,23 @@ img {
 
 /* VR */
 .vr {
-    background-image: url(../img/vr.jpg);
-    background-repeat: no-repeat;
-    color: var(--footer-color);
-    background-size: contain;
+    display: flex;
     margin-top: 160px;
     margin-bottom: 184px;
 }
 
-.context-vr {
-    padding-top: 183px;
-    padding-left: 570px;
+.vr-img {
+    width: 731px;
+    height: 500px;
 }
 
 .main-vr {
+    width: 571px;
     background-color: #fff;
     padding-top: 96px;
     padding-left: 96px;
+    margin-top: 183px;
+    margin-left: -190px;
 }
 
 .context-vr-heading {
@@ -178,6 +178,8 @@ img {
     line-height: 48px;
     text-transform: uppercase;
     color: var(--footer-color);
+    margin: 0;
+    margin-bottom: 25px;
 }
 
 .context-vr-text {
