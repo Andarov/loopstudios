@@ -29,6 +29,10 @@ html {
     box-sizing: border-box;
 }
 
+h2, p {
+    margin: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -44,6 +48,11 @@ body {
     font-style: normal;
     font-weight: 300;
     color: var(--text-color);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
 }
 
 img {
@@ -63,3 +72,76 @@ img {
 .main-content {
     flex-grow: 1;
 } 
+
+/* SITE-HEADER */
+.header {
+    background-color: #f3d7b7;
+    background-image: url(../img/Bitmap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+    margin-bottom: 130px;
+}
+
+.logo-link {
+    display: flex;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 192px;
+    height: 32px;
+    transition: 0.4s ease opacity;
+}
+
+.sitenav-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sitenav-item {
+    flex-shrink: 0;
+}
+
+.sitenav-item-link {
+    font-family: var(--text-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--text-color);
+    transition: 0.4s ease color;
+}
+
+.sitenav-item-link:active {
+    text-decoration: underline;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.site-header-bottom {
+    width: 650px;
+    border: 2px solid var(--text-color);
+    margin-bottom: 146px;
+}
+
+.site-header-bottom-heading {
+    font-family: var(--heading-text-family);
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    padding: 40px;
+}
