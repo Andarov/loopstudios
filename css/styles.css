@@ -361,10 +361,6 @@ only screen and (                min-resolution: 2dppx) {
         background-image: url(../img/Bitmap@2x.jpg);
     }
 
-    .vr {
-        background-image: url(../img/vr@2x.jpg);
-    }
-
     .box {
         background-image: url(../img/earth@2x.jpg);
         background-image: url(../img/night@2x.jpg);
