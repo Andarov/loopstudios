@@ -134,7 +134,7 @@ img {
     border-bottom: 2px solid transparent;
 }
 
-.sitenav-item-link:active {
+.sitenav-item-link:hover {
     border-bottom: 2px solid var(--text-color) ;
 }
 
@@ -227,7 +227,7 @@ img {
     text-transform: uppercase;
 }
 
-.creation-btn:active {
+.creation-btn:hover {
     background-color: var(--footer-color);
     color: var(--text-color);
 }
@@ -239,7 +239,7 @@ img {
     margin-bottom: 154px;
 }
 
-.bg-link:active {
+.bg-link:hover {
     display: flex;
     opacity: 0.6;
 }
@@ -327,7 +327,7 @@ img {
     height: 24px;
 }
 
-.footer-link img:active {
+.footer-link img:hover {
     text-decoration: underline;
 }
 
