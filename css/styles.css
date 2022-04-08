@@ -325,6 +325,11 @@ img {
     margin-bottom: 24px;
 }
 
+.footer-logo {
+    width: 144px;
+    height: 24px;
+}
+
 .footer-item:not(:last-child) {
     margin-right: 16px;
 }
@@ -377,6 +382,8 @@ img {
     line-height: 25px;
     color: var(--text-color);
     opacity: 0.5;
+    margin-left: 10px;
+    white-space: nowrap;
 }
 
 @media
