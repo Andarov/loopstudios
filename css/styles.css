@@ -101,6 +101,10 @@ img {
     margin-right: 10px;
 }
 
+.logo-link:hover {
+    opacity: 0.6;
+}
+
 .logo {
     width: 192px;
     height: 32px;
@@ -247,8 +251,8 @@ img {
 }
 
 .bg-link:hover {
-    display: flex;
-    opacity: 0.6;
+    background-image: linear-gradient() ;
+    color: var(--footer-color);
 }
 
 .box {
@@ -276,9 +280,19 @@ img {
     background-size: cover;
 }
 
+.box-earth:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/earth.jpg) ;
+    color: var(--footer-color);
+}
+
 .box-night {
     background-image: url(../img/night.jpg);
     background-repeat: no-repeat;
+}
+
+.box-night:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/night.jpg) ;
+    color: var(--footer-color);
 }
 
 .box-soccer {
@@ -286,9 +300,19 @@ img {
     background-repeat: no-repeat;
 }
 
+.box-soccer:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/soccer.jpg) ;
+    color: var(--footer-color);
+}
+
 .box-grid {
     background-image: url(../img/grid.jpg);
     background-repeat: no-repeat;
+}
+
+.box-grid:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/grid.jpg) ;
+    color: var(--footer-color);
 }
 
 .box-object {
@@ -296,9 +320,19 @@ img {
     background-repeat: no-repeat;
 }
 
-.box-ky {
-    background-image: url(../img/sky.jpg);
+.box-object:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/Object.jpg) ;
+    color: var(--footer-color);
+}
+
+.box-pocket {
+    background-image: url(../img/pocket.jpg);
     background-repeat: no-repeat;
+}
+
+.box-pocket:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/pocket.jpg) ;
+    color: var(--footer-color);
 }
 
 .box-curiosity {
@@ -306,9 +340,19 @@ img {
     background-repeat: no-repeat;
 }
 
+.box-curiosity:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/curiosity.jpg) ;
+    color: var(--footer-color);
+}
+
 .box-fisheye {
     background-image: url(../img/fisheye.jpg);
     background-repeat: no-repeat;
+}
+
+.box-fisheye:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75071)), url(../img/fisheye.jpg) ;
+    color: var(--footer-color);
 }
 
 /* FOOTER */
