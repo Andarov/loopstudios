@@ -445,9 +445,9 @@ only screen and (                min-resolution: 2dppx) {
         background-image: url(../img/earth@2x.jpg);
         background-image: url(../img/night@2x.jpg);
         background-image: url(../img/soccer@2x.jpg);
-        background-image: url(../img/grid.jpg);
+        background-image: url(../img/grid@2x.jpg);
         background-image: url(../img/Object@2x.jpg);
-        background-image: url(../img/sky@2x.jpg);
+        background-image: url(../img/pocket@2x.jpg);
         background-image: url(../img/curiosity@2x.jpg);
         background-image: url(../img/fisheye@2x.jpg);
     }
